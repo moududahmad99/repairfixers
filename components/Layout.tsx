@@ -8,6 +8,7 @@ import WhyUs from './WhyUs'
 import Testimonials from './Testimonials'
 // import TextSlider from './TextSlider'
 import ServiceItems from './ServiceItems'
+import OurApp from './OurApp'
 
 interface LayoutProps {
   children: React.ReactNode
@@ -21,6 +22,7 @@ const Layout = ({ children }: LayoutProps) => {
       <Service />
       <WhyUs />
       <Testimonials />
+      <OurApp />
       <Review />
       {/* <TextSlider /> */}
       <ServiceItems />
