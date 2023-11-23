@@ -17,7 +17,6 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div >
-      <Navbar />
       <Banner />
       <Service />
       <WhyUs />
@@ -26,8 +25,6 @@ const Layout = ({ children }: LayoutProps) => {
       <Review />
       {/* <TextSlider /> */}
       <ServiceItems />
-      <div>{children}</div>
-      <Footer />
     </div>
   )
 }
