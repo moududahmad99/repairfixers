@@ -23,8 +23,8 @@ const Review = () => {
 
   return (
     <section className="container mx-auto py-20 bg-[#F5F5F5]">
-      <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
-        <div className="max-w-2xl xl:mx-auto xl:text-center">
+      <div className="relative z-10 px-4 md:px-8">
+        <div className="xl:text-center">
           <h3 className="text-black text-3xl font-semibold sm:text-4xl">
             Our customers are always happy
           </h3>
@@ -33,7 +33,7 @@ const Review = () => {
           </p>
         </div>
         <div className="mt-12">
-          <ul className="flex-wrap gap-x-12 gap-y-10 items-center space-y-8 sm:space-y-0 sm:flex xl:justify-center">
+          <ul className="flex-wrap  gap-y-10 items-center space-y-8 sm:space-y-0 sm:flex xl:justify-center">
             {
               stats.map((item, idx) => (
                 <li key={idx} className="sm:max-w-[15rem]">

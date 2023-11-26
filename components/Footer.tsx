@@ -23,10 +23,9 @@ const Footer: React.FC = () => {
 ]
 return (
     <footer className="pt-10">
-        <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+        <div className="container mx-auto text-gray-600">
             <div className="justify-between sm:flex">
                 <div className="space-y-6">
-                    
                     <Image src={image} className="w-52" alt='Logo'/>
                     <p className="max-w-md">
                         Nulla auctor metus vitae lectus iaculis, vel euismod massa efficitur.

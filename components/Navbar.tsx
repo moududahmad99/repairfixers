@@ -14,8 +14,8 @@ export default function Navbar() {
   // Replace javascript:void(0) paths with your paths
   const navigation = [
     { title: "Home", path: "/" },
+    { title: "Products", path: "/products" },
     { title: "About", path: "/about" },
-    { title: "Customers", path: "javascript:void(0)" },
     { title: "Pricing", path: "javascript:void(0)" }
   ]
 
@@ -55,7 +55,7 @@ export default function Navbar() {
 
 
   return (
-    <>
+    <div className='shadow sticky bg-[#fff] top-0 z-10'>
       <nav className={`container mx-auto bg-white md:text-sm ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
         <div className="md:flex">
           <div className="flex items-center justify-between py-5 md:block">
@@ -298,6 +298,6 @@ export default function Navbar() {
       )}
 
 
-    </>
+    </div>
   )
 }
